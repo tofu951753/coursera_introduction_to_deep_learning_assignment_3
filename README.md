@@ -33,3 +33,6 @@ The best performing model, which was the 3 convolution layers of increasing filt
 In conclusion, the best performing model was one with maxpooling and dropout to help with feature extraction and overfitting. The dataset was large, so it was very easy for models to overfit. This can be seen from the training accuracy for the simple models without any regularization or features to help with overfitting, as training accuracy continues improving but validation accuracy decreases or plateaus. Additionally, too much regularization did not help and caused the model to have trouble learning. 
 
 If I spend more time on this project, I would try training the best performing model with more epochs and lower the aggressive early stopping since it kept all models from training more than 6 epochs. A lower learning rate is also beneficial as seen between the difference in performance between the same models with different learning rates. I would also try processing the input data a bit more and remove the brightness aspect, since all the images were just various shades of red, and the different brightnesses could be seen as noise. 
+
+# Kaggle Result
+![](kaggle_result.png)
